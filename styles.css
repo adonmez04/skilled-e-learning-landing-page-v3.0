@@ -1,3 +1,2 @@
-@import url(./css/resets.css);
-@import url(./css/globals.css);
-@import url(./css/design-tokens.css);
+ @import url(./css/reset.css);
+ @import url(./css/utilities.css);
