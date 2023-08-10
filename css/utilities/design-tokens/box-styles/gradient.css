@@ -1,0 +1,13 @@
+/* GRADIENT */
+/* DESCRIPTIONS */
+
+/* Card Big */
+/* --gradient-secondary */
+
+/* Footer Button */
+/* --gradient-tertiary */
+
+:root {
+    --gradient-secondary: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    --gradient-tertiary: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+}   

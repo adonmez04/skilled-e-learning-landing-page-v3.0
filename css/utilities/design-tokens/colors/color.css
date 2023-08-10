@@ -1,0 +1,10 @@
+/* COLOR */
+
+:root {
+    --color-primary-main: hsla(234, 53%, 16%, 1); /* #13183F */
+    --color-primary-accent: hsla(234, 25%, 52%, 1); /* #666CA3 */
+    --color-secondary-main: hsla(341, 92%, 62%, 1); /* #F74780 */ 
+    --color-secondary-accent: hsla(341, 100%, 83%, 1); /* #FFA7C3 */
+    --color-neutral-gray: hsla(233, 10%, 56%, 1); /* #83869A */
+    --color-neutral-white: hsla(0, 0%, 100%, 1); /* #FFFFFF */
+}   

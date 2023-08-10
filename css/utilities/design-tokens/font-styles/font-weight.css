@@ -1,0 +1,36 @@
+/* FONT-WEIGHT */
+/* DESCRIPTIONS */
+
+/* Header Button */
+/* 700 --> 700 | --font-weight-bold */
+
+/* H1 */
+/* 800 --> 800 | --font-weight-l */
+
+/* Paragraph */
+/* 500 --> 500 | --font-weight-m */
+
+/* Hero Button */
+/* 700 --> 700 | --font-weight-bold */
+
+/* Card Big */
+/* 800 --> 800 | --font-weight-l */
+
+/* Card Header */
+/* 800 --> 800 | --font-weight-l */
+
+/* Card Paragraph */
+/* 500 --> 500 | --font-weight-m */
+
+/* Card Link */
+/* 700 --> 700 | --font-weight-bold */
+
+/* Footer Button */
+/* 700 --> 700 | --font-weight-bold */
+
+:root {
+    --font-weight-normal: normal;
+    --font-weight-m: 500;
+    --font-weight-bold: 700;
+    --font-weight-l:800;
+}

@@ -1,0 +1,37 @@
+/* FONT-SIZE */
+/* DESCRIPTIONS */
+
+/* Header Button */
+/* 16px --> 18px | --font-size-m */
+
+/* H1 */
+/* 40px --> 56px | --font-size-xxl */
+
+/* Paragraph */
+/* 16px --> 18px | --font-size-m */
+
+/* Hero Button */
+/* 16px --> 18px | --font-size-m */
+
+/* Card Big */
+/* 24px --> 32px | --font-size-xl */ 
+
+/* Card Header */
+/* 20px --> 24px | --font-size-l */
+
+/* Card Paragraph */
+/* 16px --> 18px | --font-size-m-1 */
+
+/* Card Link */
+/* 18px --> 18px | --font-size-m-2 */
+
+/* Footer Button */
+/* 16px --> 18px | --font-size-m */
+
+:root {
+    --font-size-m-1: clamp(1.00rem, calc(0.96rem + 0.19vw), 1.13rem); /* 16px --> 18px */
+    --font-size-m-2: 1.125rem; /* 18px */
+    --font-size-l: clamp(1.25rem, calc(1.16rem + 0.38vw), 1.50rem); /* 20px --> 24px */
+    --font-size-xl: clamp(1.50rem, calc(1.32rem + 0.75vw), 2.00rem); /* 24px --> 32px */
+    --font-size-xxl: clamp(2.50rem, calc(2.15rem + 1.50vw), 3.50rem); /* 40px --> 56px */
+}

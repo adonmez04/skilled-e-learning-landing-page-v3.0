@@ -1,0 +1,13 @@
+/* BACKGROUND-COLOR */
+/* DESCRIPTIONS */
+
+/* Body */
+/* --background-color-neutral */
+
+/* Footer */
+/* --background-color-primary */
+
+:root {
+    --background-color-neutral: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    --background-color-primary: var(--color-primary-main);
+}   

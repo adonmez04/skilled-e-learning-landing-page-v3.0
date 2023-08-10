@@ -1,0 +1,36 @@
+/* LINE-HEIGHT */
+/* DESCRIPTIONS */
+
+/* Header Button */
+/* 28px | --line-height-m-2 */
+
+/* H1 */
+/* normal --> normal | --line-height-normal */
+
+/* Paragraph */
+/* 26px --> 28px | --line-height-m */
+
+/* Hero Button */
+/* 26px --> 28px | --line-height-m */
+
+/* Card Big */
+/* 32px --> 40px | --line-height-l */
+
+/* Card Header */
+/* normal --> normal | --line-height-normal */
+
+/* Card Paragraph */
+/* 26px --> 28px | --line-height-m */
+
+/* Card Link */
+/* 28px | --line-height-m-2 */
+
+/* Footer Button */
+/* 28px | --line-height-m-2 */
+
+:root {
+    --line-height-normal: normal;
+    --line-height-m-1: clamp(1.63rem, calc(1.58rem + 0.19vw), 1.75rem); /* 26px --> 28px */
+    --line-height-m-2: 1.75rem; /* 28px */
+    --line-height-l: clamp(2.00rem, calc(1.82rem + 0.75vw), 2.50rem); /* 32px --> 40px */
+}

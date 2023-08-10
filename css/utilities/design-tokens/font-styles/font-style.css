@@ -1,0 +1,33 @@
+/* FONT-STYLE */
+/* DESCRIPTIONS */
+
+/* Header Button */
+/* normal | --font-style-normal */
+
+/* H1 */
+/* normal | --font-style-normal */
+
+/* Paragraph */
+/* normal | --font-style-normal */
+
+/* Hero Button */
+/* normal | --font-style-normal */
+
+/* Card Big */
+/* normal | --font-style-normal */
+
+/* Card Header */
+/* normal | --font-style-normal */
+
+/* Card Paragraph */
+/* normal | --font-style-normal */
+
+/* Card Link */
+/* normal | --font-style-normal */
+
+/* Footer Button */
+/* normal | --font-style-normal */
+
+:root {
+    --font-style-normal: normal;
+}
