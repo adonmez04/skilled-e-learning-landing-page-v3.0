@@ -1,0 +1,25 @@
+.button-secondary {
+    /* Font Styles */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    /* Color */
+    color: var(--color-neutral-white);
+    background: var(--gradient-secondary);
+    /* Box Styles */
+    border-radius: var(--border-radius-xl);
+    /* Micro-interactions */
+    transition: all .2ms; 
+    /* Whitespace */
+    /* padding: 15px 38px; */
+    /* padding: 19px 32px 16px; */
+    padding-top: clamp(0.94rem, calc(0.85rem + 0.38vw), 1.19rem); /*15px → 19px */
+    padding-right: clamp(2.00rem, calc(2.51rem + -0.56vw), 2.38rem); /*38px → 32px */
+    padding-left: clamp(2.00rem, calc(2.51rem + -0.56vw), 2.38rem); /*38px → 32px */
+    padding-bottom: clamp(0.94rem, calc(0.92rem + 0.09vw), 1.00rem); /*15px → 16px */
+}
+
+.button-secondary:where(:hover){
+    /* Color */
+    background: var(--gradient-1-hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}

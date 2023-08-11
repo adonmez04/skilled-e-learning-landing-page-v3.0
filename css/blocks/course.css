@@ -1,0 +1,58 @@
+.course {
+    /* Position */
+    position: relative;
+    /* Box Styles */
+    border-radius: var(--border-radius-m);
+    background-color: var(--color-neutral-white);
+    box-shadow: var(--box-shadow-step-1);
+    /* Whitespace */
+    /* padding: 56px 28px 32px; */
+    /* padding: 64px 32px 40px; */
+    padding-top: clamp(3.50rem, calc(3.32rem + 0.75vw), 4.00rem);   /* 56px → 64px */
+    padding-right: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
+    padding-left: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
+    padding-bottom: clamp(2.00rem, calc(1.82rem + 0.75vw), 2.50rem); /*32px → 40px */
+}
+
+.course h2 {
+    /* Font Styles */
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-extra-bold);
+    /* Color */
+    color: var(--color-primary-main);
+    /* Whitespace */
+    margin-bottom: clamp(1.00rem, calc(0.82rem + 0.75vw), 1.50rem); /* 16px → 24px */
+}
+
+.course p {
+    /* Font Styles */
+    font-size: var(--font-size-m-1);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-m-1);
+    /* Color */
+    color: var(--color-neutral-gray);
+    /* Whitespace */
+    margin-bottom: 1.5rem;
+}
+
+.course a:where(:link, :visited) {
+    /* Font Styles */
+    font-size: var(--font-size-m-2);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-m-2); 
+    /* Color */
+    color: var(--color-secondary-main);
+    /* Micro-interaction */
+    transition: all .2ms;
+    cursor: pointer;
+}
+
+.course a:where(:hover, :active) {
+    /* Color */
+    color: hsla(341, 92%, 62%, .7);
+}
+
+.course img {
+    position: absolute;
+    top: -10%;
+}

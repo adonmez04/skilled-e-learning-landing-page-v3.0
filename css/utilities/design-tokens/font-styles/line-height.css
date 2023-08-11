@@ -8,10 +8,10 @@
 /* normal --> normal | --line-height-normal */
 
 /* Paragraph */
-/* 26px --> 28px | --line-height-m */
+/* 26px --> 28px | --line-height-m-1 */
 
 /* Hero Button */
-/* 26px --> 28px | --line-height-m */
+/* 26px --> 28px | --line-height-m-1 */
 
 /* Card Big */
 /* 32px --> 40px | --line-height-l */
@@ -20,7 +20,7 @@
 /* normal --> normal | --line-height-normal */
 
 /* Card Paragraph */
-/* 26px --> 28px | --line-height-m */
+/* 26px --> 28px | --line-height-m-1 */
 
 /* Card Link */
 /* 28px | --line-height-m-2 */

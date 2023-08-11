@@ -28,6 +28,9 @@
 /* Footer Button */
 /* Plus Jakarta Sans | --font-family-main */
 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+
 :root {
     --font-family-main: Plus Jakarta Sans;
 }

@@ -1,0 +1,25 @@
+.button-primary {
+    /* Font Styles */
+    font-size: var(--font-size-m-1);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-m-2);
+    /* Color */
+    color: var(--color-neutral-white);
+    background-color: var(--color-primary-main);
+    /* Box Styles */
+    border-radius: var(--border-radius-l);
+    /* Whitespace */
+    /* padding: 9px 24px 11px; */
+    /* padding: 14px 32px; */
+    padding-top: clamp(0.56rem, calc(0.45rem + 0.47vw), 0.88rem); /* 9px → 14px */
+    padding-right: clamp(1.50rem, calc(1.32rem + 0.75vw), 2.00rem); /* 24px → 32px */
+    padding-left: clamp(1.50rem, calc(1.32rem + 0.75vw), 2.00rem); /* 24px → 32px */
+    padding-bottom: clamp(0.69rem, calc(0.62rem + 0.28vw), 0.88rem); /* 11px → 14px */
+    /* Micro-interactions */
+    transition: all .2ms;
+}
+
+.button-primary:where(:hover){
+    background-color: var(--color-primary-accent);
+}
+

@@ -2,16 +2,16 @@
 /* DESCRIPTIONS */
 
 /* Header Button */
-/* 16px --> 18px | --font-size-m */
+/* 16px --> 18px | --font-size-m-1 */
 
 /* H1 */
 /* 40px --> 56px | --font-size-xxl */
 
 /* Paragraph */
-/* 16px --> 18px | --font-size-m */
+/* 16px --> 18px | --font-size-m-1 */
 
 /* Hero Button */
-/* 16px --> 18px | --font-size-m */
+/* 16px --> 18px | --font-size-m-1 */
 
 /* Card Big */
 /* 24px --> 32px | --font-size-xl */ 
@@ -26,7 +26,7 @@
 /* 18px --> 18px | --font-size-m-2 */
 
 /* Footer Button */
-/* 16px --> 18px | --font-size-m */
+/* 16px --> 18px | --font-size-m-1 */
 
 :root {
     --font-size-m-1: clamp(1.00rem, calc(0.96rem + 0.19vw), 1.13rem); /* 16px --> 18px */

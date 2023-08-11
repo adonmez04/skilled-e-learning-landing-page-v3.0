@@ -5,22 +5,22 @@
 /* 700 --> 700 | --font-weight-bold */
 
 /* H1 */
-/* 800 --> 800 | --font-weight-l */
+/* 800 --> 800 | --font-weight-extra-bold */
 
 /* Paragraph */
-/* 500 --> 500 | --font-weight-m */
+/* 500 --> 500 | --font-weight-medium */
 
 /* Hero Button */
 /* 700 --> 700 | --font-weight-bold */
 
 /* Card Big */
-/* 800 --> 800 | --font-weight-l */
+/* 800 --> 800 | --font-weight-extra-bold */
 
 /* Card Header */
-/* 800 --> 800 | --font-weight-l */
+/* 800 --> 800 | --font-weight-extra-bold */
 
 /* Card Paragraph */
-/* 500 --> 500 | --font-weight-m */
+/* 500 --> 500 | --font-weight-medium */
 
 /* Card Link */
 /* 700 --> 700 | --font-weight-bold */
@@ -30,7 +30,7 @@
 
 :root {
     --font-weight-normal: normal;
-    --font-weight-m: 500;
+    --font-weight-medium: 500;
     --font-weight-bold: 700;
-    --font-weight-l:800;
+    --font-weight-extra-bold:800;
 }
