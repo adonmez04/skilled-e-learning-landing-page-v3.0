@@ -1,0 +1,30 @@
+.color-pm {
+    /* #13183F */
+    color: var(--color-primary-main);
+}
+
+.color-pa {
+    /* #666CA3 */
+    color: var(--color-primary-accent);
+}
+
+.color-sm {
+    /* #F74780 */ 
+    color: var(--color-secondary-main);
+}
+
+.color-sa {
+    /* #FFA7C3 */
+    color: var(--color-secondary-accent);
+}
+
+.color-ng {
+    /* #83869A */
+    color: var(--color-neutral-gray);
+}
+
+.color-nw {
+    /* #FFFFFF */
+    color: var(--color-neutral-white);
+}
+

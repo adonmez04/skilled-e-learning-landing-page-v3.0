@@ -1,0 +1,19 @@
+.fw-n {
+    /* normal */
+    font-weight: var(--font-weight-normal);
+}
+
+.fw-m {
+    /* 500 */
+    font-weight: var(--font-weight-medium);
+}
+
+.fw-b {
+    /* 700 */
+    font-weight: var(--font-weight-bold);
+}
+
+.fw-ex {
+    /* 800 */
+    font-weight: var(--font-weight-extra-bold);
+}

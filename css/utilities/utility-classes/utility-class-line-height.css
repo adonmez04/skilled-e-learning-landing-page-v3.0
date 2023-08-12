@@ -1,0 +1,19 @@
+.lh-n {
+    /* normal */
+    line-height: var(--line-height-normal);
+}
+
+.lh-m-1 {
+    /* 26px --> 28px */
+    line-height: var(--line-height-m-1);
+}
+
+.lh-m-2 {
+    /* 28px */
+    line-height: var(--line-height-m-2);
+}
+
+.lh-l {
+    /* 32px --> 40px */
+    line-height: var(--line-height-l);
+}

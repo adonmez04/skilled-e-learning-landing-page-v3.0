@@ -29,6 +29,7 @@
 /* 28px | --line-height-m-2 */
 
 :root {
+    /* normal */
     --line-height-normal: normal;
     /* 26px --> 28px */
     --line-height-m-1: clamp(1.63rem, calc(1.58rem + 0.19vw), 1.75rem); 

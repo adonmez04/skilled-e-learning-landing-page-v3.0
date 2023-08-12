@@ -1,0 +1,29 @@
+.fs-m-1{ 
+    /* 16px --> 18px */
+    font-size: var(--font-size-m-1);
+}
+
+.fs-m-2 {
+    /* 18px */
+    font-size: var(--font-size-m-2);
+}
+
+.fs-l {
+    /* 20px --> 24px */
+    font-size: var(--font-size-l);
+}
+
+.fs-xl {
+    /* 24px --> 32px */
+    font-size: var(--font-size-xl);
+}
+
+.fs-xl-2 {
+    /* 28px --> 36px */
+    font-size: var(--font-size-xl-2);
+}
+
+.fs-xxl {
+    /* 40px --> 56px */
+    font-size: var(--font-size-xxl);
+}

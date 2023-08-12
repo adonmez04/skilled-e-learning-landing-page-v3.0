@@ -29,8 +29,12 @@
 /* 700 --> 700 | --font-weight-bold */
 
 :root {
+    /* normal */
     --font-weight-normal: normal;
+    /* 500 */
     --font-weight-medium: 500;
+    /* 700 */
     --font-weight-bold: 700;
+    /* 800 */
     --font-weight-extra-bold:800;
 }
