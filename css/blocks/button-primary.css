@@ -17,6 +17,8 @@
     padding-bottom: clamp(0.69rem, calc(0.62rem + 0.28vw), 0.88rem); /* 11px → 14px */
     /* Micro-interactions */
     transition: all .2ms;
+    /* Z-index */
+    z-index: 1;
 }
 
 .button-primary:where(:hover){

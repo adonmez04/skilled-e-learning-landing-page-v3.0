@@ -1,8 +1,8 @@
 .button-secondary {
     /* Font Styles */
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px; /* 162.5% */
+    font-size: var(--font-size-m-1);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-m-1);
     /* Color */
     color: var(--color-neutral-white);
     background: var(--gradient-secondary);

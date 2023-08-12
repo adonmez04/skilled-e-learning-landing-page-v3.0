@@ -3,12 +3,9 @@ body {
     font-family: var(--font-family-main);
     font-style: var(--font-style-normal);
     line-height: var(--line-height-normal);
-    /* CSS Grid */
-    display: grid;
-    place-content: center;
+    /* Layout */
+    /* overflow-x: hidden; */
     min-height: 100vh;
     /* Color */
     background: var(--background-color-neutral);
-    /* Position */
-    position: relative;
 }

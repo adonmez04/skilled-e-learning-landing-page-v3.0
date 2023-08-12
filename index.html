@@ -6,24 +6,35 @@
   <link rel="stylesheet" href="./styles.css">  
   <title>Skilled e-learning landing page v3.0</title>
 </head>
-<body>
-  <header>
+<body class="margin-auto">
+  <header class="max-width margin-auto">
     <p class="logo">skilled</p>
     <button type="button" class="button-primary">Get Started</button>
   </header>
 
-  <section class="hero">
-    <h1>Maximize skill, minimize budget</h1>
-    <p>
-      Our modern courses across a range of in-demand skills will give you the
-      knowledge you need to live the life you want.
-    </p>
-    <button type="button" class="button-secondary">Get Started</button>
-    <img src="./images/image-hero-mobile-figma.png" alt="">
+  <section class="hero | max-width margin-auto">
+    <div class="hero-content">
+      <h1>Maximize skill, minimize budget</h1>
+      <p>
+        Our modern courses across a range of in-demand skills will give you the
+        knowledge you need to live the life you want.
+      </p>
+      <button type="button" class="button-secondary">Get Started</button>
+    </div>
+    <div class="hero-img">
+      <!-- For mobile -->
+      <!-- <img src="./assets/images/image-hero-mobile-figma.png" alt=""> -->
+
+      <!-- For desktop -->
+      <img src="./assets/images/Group 19 - figma-2.png" alt="">
+    </div>
+
+
+    
   </section>
 
-  <main class="course-area">
-    <section class="checkout">
+  <main class="course-area | margin-auto max-width">
+    <section class="course-checkout">
       <h2>Check out our most popular courses!</h2>
     </section>
     
@@ -79,10 +90,13 @@
 
   </main>
 
-  <footer>
-    <p class="logo">skilled</p>
-    <button type="button" class="button-tertiary">Get Started</button>
-  </footer>
+    <div class="footer-bg">
+      <footer class="max-width margin-auto">
+        <p class="logo">skilled</p>
+        <button type="button" class="button-tertiary">Get Started</button>
+      </footer>
+    </div>
+
 
 </body>
 </html>
