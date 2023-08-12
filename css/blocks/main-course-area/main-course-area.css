@@ -1,6 +1,7 @@
-.course-area {
+.main-course-area {
     /* Whitespace */
-    margin-bottom: clamp(5.00rem, calc(3.68rem + 5.63vw), 8.75rem); /* 80px → 140px */
+    /* 80px → 140px */
+    margin-bottom: clamp(5.00rem, calc(3.68rem + 5.63vw), 8.75rem); 
 
     /* CSS Grid */
     display: grid;
@@ -10,5 +11,6 @@
     place-content: center;
 
     /* Custom Properties */
-    --_flow: clamp(2.50rem, calc(1.62rem + 3.76vw), 5.00rem);   /* 40px → 80px */
+    /* 40px → 80px */
+    --_flow: clamp(2.50rem, calc(1.62rem + 3.76vw), 5.00rem);   
 }

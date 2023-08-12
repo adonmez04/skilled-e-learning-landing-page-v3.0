@@ -30,7 +30,10 @@
 
 :root {
     --line-height-normal: normal;
-    --line-height-m-1: clamp(1.63rem, calc(1.58rem + 0.19vw), 1.75rem); /* 26px --> 28px */
-    --line-height-m-2: 1.75rem; /* 28px */
-    --line-height-l: clamp(2.00rem, calc(1.82rem + 0.75vw), 2.50rem); /* 32px --> 40px */
+    /* 26px --> 28px */
+    --line-height-m-1: clamp(1.63rem, calc(1.58rem + 0.19vw), 1.75rem); 
+    /* 28px */
+    --line-height-m-2: 1.75rem; 
+    /* 32px --> 40px */
+    --line-height-l: clamp(2.00rem, calc(1.82rem + 0.75vw), 2.50rem); 
 }

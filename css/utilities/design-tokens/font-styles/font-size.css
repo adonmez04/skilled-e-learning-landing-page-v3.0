@@ -29,10 +29,16 @@
 /* 16px --> 18px | --font-size-m-1 */
 
 :root {
-    --font-size-m-1: clamp(1.00rem, calc(0.96rem + 0.19vw), 1.13rem); /* 16px --> 18px */
-    --font-size-m-2: 1.125rem; /* 18px */
-    --font-size-l: clamp(1.25rem, calc(1.16rem + 0.38vw), 1.50rem); /* 20px --> 24px */
-    --font-size-xl: clamp(1.50rem, calc(1.32rem + 0.75vw), 2.00rem); /* 24px --> 32px */
-    --font-size-xl-2: clamp(1.75rem, calc(1.57rem + 0.75vw), 2.25rem); /* 28px --> 36px */
-    --font-size-xxl: clamp(2.50rem, calc(2.15rem + 1.50vw), 3.50rem); /* 40px --> 56px */
+    /* 16px --> 18px */
+    --font-size-m-1: clamp(1.00rem, calc(0.96rem + 0.19vw), 1.13rem); 
+    /* 18px */
+    --font-size-m-2: 1.125rem; 
+    /* 20px --> 24px */
+    --font-size-l: clamp(1.25rem, calc(1.16rem + 0.38vw), 1.50rem); 
+    /* 24px --> 32px */
+    --font-size-xl: clamp(1.50rem, calc(1.32rem + 0.75vw), 2.00rem); 
+    /* 28px --> 36px */
+    --font-size-xl-2: clamp(1.75rem, calc(1.57rem + 0.75vw), 2.25rem); 
+    /* 40px --> 56px */
+    --font-size-xxl: clamp(2.50rem, calc(2.15rem + 1.50vw), 3.50rem); 
 }

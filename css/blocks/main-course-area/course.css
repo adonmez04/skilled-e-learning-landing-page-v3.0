@@ -1,53 +1,41 @@
-.course-checkout {
-    /* Box Styles */
-    background: var( --gradient-secondary);
-    border-radius: var(--border-radius-m);
-}
-
-.course-checkout h2 {
-    /* Font Styles */
-    font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-extra-bold);
-    line-height: var(--line-height-l);
-    /* Color */
-    color: var(--color-neutral-white);
-    /* Whitespace */
-    /* padding: 24px 28px 32px; */
-    /* padding: 64px 32px 32px; */
-    padding-top: clamp(1.50rem, calc(0.62rem + 3.76vw), 4.00rem);  /* 24px → 64px */
-    padding-right: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
-    padding-left: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
-    padding-bottom: clamp(2.00rem, calc(-0.33rem + 9.95vw), 8.63rem); /* 32px --> 138px */
-
-}
-
 .course {
     /* Flexbox */
     display: flex;
     flex-direction: column;
+
     /* Position */
     position: relative;
+
     /* Box Styles */
     border-radius: var(--border-radius-m);
     background-color: var(--color-neutral-white);
     box-shadow: var(--box-shadow-step-1);
+
     /* Whitespace */
     /* padding: 56px 28px 32px; */
     /* padding: 64px 32px 40px; */
-    padding-top: clamp(3.50rem, calc(3.32rem + 0.75vw), 4.00rem);   /* 56px → 64px */
-    padding-right: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
-    padding-left: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
-    padding-bottom: clamp(2.00rem, calc(1.82rem + 0.75vw), 2.50rem); /*32px → 40px */
+
+    /* 56px → 64px */
+    padding-top: clamp(3.50rem, calc(3.32rem + 0.75vw), 4.00rem);   
+    /* 28px → 32px */
+    padding-right: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); 
+    /* 28px → 32px */
+    padding-left: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); 
+    /*32px → 40px */
+    padding-bottom: clamp(2.00rem, calc(1.82rem + 0.75vw), 2.50rem); 
 }
 
 .course h2 {
     /* Font Styles */
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-extra-bold);
+
     /* Color */
     color: var(--color-primary-main);
+
     /* Whitespace */
-    margin-bottom: clamp(1.00rem, calc(0.82rem + 0.75vw), 1.50rem); /* 16px → 24px */
+    /* 16px → 24px */
+    margin-bottom: clamp(1.00rem, calc(0.82rem + 0.75vw), 1.50rem); 
 }
 
 .course p {
@@ -55,8 +43,10 @@
     font-size: var(--font-size-m-1);
     font-weight: var(--font-weight-medium);
     line-height: var(--line-height-m-1);
+
     /* Color */
     color: var(--color-neutral-gray);
+
     /* Whitespace */
     margin-bottom: 1.5rem;
 }
@@ -66,11 +56,14 @@
     font-size: var(--font-size-m-2);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-m-2); 
+
     /* Color */
     color: var(--color-secondary-main);
+
     /* Micro-interaction */
     transition: all .2ms;
     cursor: pointer;
+
     /* Flexbox */
     margin-top: auto;
 }
@@ -81,6 +74,7 @@
 }
 
 .course img {
+    /* Position */
     position: absolute;
     top: -7.5%;
 }

@@ -1,0 +1,29 @@
+.course-title {
+    /* Box Styles */
+    background: var( --gradient-secondary);
+    border-radius: var(--border-radius-m);
+}
+
+.course-title h2 {
+    /* Font Styles */
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-extra-bold);
+    line-height: var(--line-height-l);
+
+    /* Color */
+    color: var(--color-neutral-white);
+
+    /* Whitespace */
+    /* padding: 24px 28px 32px; */
+    /* padding: 64px 32px 32px; */
+    
+    /* 24px → 64px */
+    padding-top: clamp(1.50rem, calc(0.62rem + 3.76vw), 4.00rem);  
+    /* 28px → 32px */
+    padding-right: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); 
+    /* 28px → 32px */
+    padding-left: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); 
+    /* 32px --> 138px */
+    padding-bottom: clamp(2.00rem, calc(-0.33rem + 9.95vw), 8.63rem); 
+
+}

@@ -3,23 +3,31 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     /* Whitespace */
     /* padding: 36px 16px 36px 16px; */
     /* padding: 32px 165px 32px 165px; */
-    padding-top: clamp(2.00rem, calc(2.34rem + -0.38vw), 2.25rem); /* 36px → 32px */
-    padding-bottom: clamp(2.00rem, calc(2.34rem + -0.38vw), 2.25rem); /* 36px → 32px */
+
+    /* 36px → 32px */
+    padding-top: clamp(2.00rem, calc(2.34rem + -0.38vw), 2.25rem); 
+    /* 36px → 32px */
+    padding-bottom: clamp(2.00rem, calc(2.34rem + -0.38vw), 2.25rem); 
 }
 
 footer .logo {
     /* Font Styles */
-    font-size: var(--font-size-xl-2); /* 28px --> 36px */
+    /* 28px --> 36px */
+    font-size: var(--font-size-xl-2); 
     font-weight: var(--font-weight-extra-bold);
+
     /* Color */
     color: var(--color-neutral-white);
 }
 
 .footer-bg {
-    /* Color */
+    /* Layout */
     width: 100%;
+    
+    /* Color */
     background-color: var(--color-primary-main);
 }

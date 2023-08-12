@@ -23,32 +23,43 @@
     /* Font Styles */
     font-size: var(--font-size-xxl);
     font-weight: var(--font-weight-extra-bold);
+
     /* Color */
     color: var(--color-primary-main);
+
     /* Whitespace */
-    margin-bottom: clamp(1.63rem, calc(1.56rem + 0.28vw), 1.81rem); /* 26px → 29px */
+    /* 26px → 29px */
+    margin-bottom: clamp(1.63rem, calc(1.56rem + 0.28vw), 1.81rem); 
 }
 
 .hero-content p {
     /* Layout */
     width: 98%;
+
     /* Font Styles */
     font-size: var(--font-size-m-1);
     font-weight: var(--font-weight-m);
     line-height: var(--line-height-m-1);
+
     /* Color */
     color: var(--color-neutral-gray);
+
     /* Whitespace */
-    margin-bottom: calc(clamp(1.50rem, calc(1.15rem + 1.50vw), 2.50rem) + 3px); /* 24px → 40px */
+    /* 24px → 40px */
+    margin-bottom: calc(clamp(1.50rem, calc(1.15rem + 1.50vw), 2.50rem) + 3px); 
 }
 
 .hero-img {
+    /* Position */
     position: relative;
+
+    /* Layout */
     width: 457px;
     height: 359px;
 }
 
 .hero-img img {
+    /* Position */
     position: absolute;
     top: -50%;
     left: 0;

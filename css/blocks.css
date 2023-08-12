@@ -1,9 +1,18 @@
-@import url(./blocks/hero.css);
-@import url(./blocks/course-area.css);
-@import url(./blocks/course.css);
+/* Body */
 @import url(./blocks/body.css);
-@import url(./blocks/button-primary.css);
-@import url(./blocks/button-secondary.css);
-@import url(./blocks/button-tertiary.css);
-@import url(./blocks/footer.css);
+/* Header */
 @import url(./blocks/header.css);
+/* Hero */
+@import url(./blocks/hero.css);
+/* Main course area */
+@import url(./blocks/main-course-area/main-course-area.css);
+@import url(./blocks/main-course-area/course-title.css);
+@import url(./blocks/main-course-area/course.css);
+/* Footer */
+@import url(./blocks/footer.css);
+/* Buttons */
+@import url(./blocks/buttons/button-primary.css);
+@import url(./blocks/buttons/button-secondary.css);
+@import url(./blocks/buttons/button-tertiary.css);
+
+
