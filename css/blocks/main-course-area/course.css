@@ -26,27 +26,12 @@
 }
 
 .course h2 {
-    /* Font Styles */
-    font-size: var(--font-size-l);
-    font-weight: var(--font-weight-extra-bold);
-
-    /* Color */
-    color: var(--color-primary-main);
-
     /* Whitespace */
     /* 16px → 24px */
     margin-bottom: clamp(1.00rem, calc(0.82rem + 0.75vw), 1.50rem); 
 }
 
 .course p {
-    /* Font Styles */
-    font-size: var(--font-size-m-1);
-    font-weight: var(--font-weight-medium);
-    line-height: var(--line-height-m-1);
-
-    /* Color */
-    color: var(--color-neutral-gray);
-
     /* Whitespace */
     margin-bottom: 1.5rem;
 }
