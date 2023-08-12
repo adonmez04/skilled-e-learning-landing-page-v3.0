@@ -1,9 +1,18 @@
 .course-area {
+    /* Custom Properties */
+    --flow: clamp(2.50rem, calc(1.62rem + 3.76vw), 5.00rem);   /* 40px → 80px */
+    --test: clamp(6.25rem, calc(0.75rem + 23.47vw), 21.88rem);
+    /* CSS Grid */
+    max-width: calc(1110px + 165px*2);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 350px));
+    row-gap: var(--flow);
+    column-gap: 30px;
+
+
+
     /* Whitespace */
     margin-bottom: clamp(5.00rem, calc(3.68rem + 5.63vw), 8.75rem); /* 80px → 140px */
-    /* Custom Properties */
-    --flow: clamp(1.88rem, calc(2.72rem + -0.94vw), 2.50rem);   /* 40px → 30px */
-    /* Whitespace */
     padding-right: clamp(1.00rem, calc(-2.28rem + 13.99vw), 10.31rem); /* 16px → 165px */
     padding-left: clamp(1.00rem, calc(-2.28rem + 13.99vw), 10.31rem); /* 16px → 165px */
 }
@@ -24,5 +33,5 @@
     padding-top: clamp(1.50rem, calc(0.62rem + 3.76vw), 4.00rem);  /* 24px → 64px */
     padding-right: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
     padding-left: clamp(1.75rem, calc(1.66rem + 0.38vw), 2.00rem); /* 28px → 32px */
-    padding-bottom: 2rem; /* 32px */
+    padding-bottom: clamp(2.00rem, calc(-0.33rem + 9.95vw), 8.63rem); /* 32px --> 138px */
 }

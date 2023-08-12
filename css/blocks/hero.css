@@ -1,5 +1,6 @@
 .hero {
     /* Whitespace */
+    margin-bottom: clamp(15.63rem, calc(29.40rem + -15.31vw), 25.81rem); /* 413px → 250px */
     /* padding: 0 16px 0 16px; */
     /* padding: 0 165px 0 165px; */
     padding-right: clamp(1.00rem, calc(-2.28rem + 13.99vw), 10.31rem); /* 16px → 165px */
@@ -31,12 +32,21 @@
 .hero .button-secondary {
     /* for only this demo */
     /* Whitespace */
-    margin-bottom: clamp(2.88rem, calc(-1.61rem + 19.15vw), 15.63rem); /* 46px → 250px */
+    /* margin-bottom: clamp(2.88rem, calc(-1.61rem + 19.15vw), 15.63rem);  */
+    /* 46px → 250px */
 }
 
 .hero img {
     /* for only this demo */
     /* Whitespace */
-    margin-bottom: clamp(4.13rem, calc(2.63rem + 6.38vw), 8.38rem); /* 66px → 134px */
-    translate: 7px -2px;
+    /* margin-bottom: clamp(4.13rem, calc(2.63rem + 6.38vw), 8.38rem);  */
+    /* 66px → 134px */
+    /* translate: 7px -2px; */
+}
+
+.hero img {
+    /* Position */
+    position: absolute;
+    top: 16.50%; /* 432px */
+    left: 6%; /* 22px */
 }

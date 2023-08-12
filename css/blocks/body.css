@@ -9,4 +9,6 @@ body {
     min-height: 100vh;
     /* Color */
     background: var(--background-color-neutral);
+    /* Position */
+    position: relative;
 }
