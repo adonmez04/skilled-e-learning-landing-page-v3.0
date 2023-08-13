@@ -1,7 +1,6 @@
 /* MY DEFAULT */
 body {
     /* LAYOUT */
-    /* overflow-x: hidden; */
     /* TEXT */
     font-family: var(--font-family-main);
     font-style: var(--font-style-normal);
@@ -57,6 +56,7 @@ a {
   
 button {
     /* Button Style Reset */
+    
     /* LAYOUT */
     /* Padding */
     padding: 0;
