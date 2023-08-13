@@ -25,7 +25,7 @@
     padding-bottom: clamp(2.00rem, calc(1.82rem + 0.75vw), 2.50rem); 
 }
 
-.course h2 {
+.course h3 {
     /* Whitespace */
     /* 16px → 24px */
     margin-bottom: clamp(1.00rem, calc(0.82rem + 0.75vw), 1.50rem); 
@@ -37,17 +37,8 @@
 }
 
 .course a:where(:link, :visited) {
-    /* Font Styles */
-    font-size: var(--font-size-m-2);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-m-2); 
-
     /* Color */
     color: var(--color-secondary-main);
-
-    /* Micro-interaction */
-    transition: all .2ms;
-    cursor: pointer;
 
     /* Flexbox */
     margin-top: auto;

@@ -1,4 +1,9 @@
 .button-primary {
+    /* Layout */
+    /* 140px → 167px */
+    max-width: clamp(8.75rem, calc(8.16rem + 2.54vw), 10.44rem);
+    width: 100%;
+
     /* Font Styles */
     font-size: var(--font-size-m-1);
     font-weight: var(--font-weight-bold);
@@ -17,10 +22,6 @@
 
     /* 9px → 14px */
     padding-top: clamp(0.56rem, calc(0.45rem + 0.47vw), 0.88rem); 
-    /* 24px → 32px */
-    padding-right: clamp(1.50rem, calc(1.32rem + 0.75vw), 2.00rem); 
-    /* 24px → 32px */
-    padding-left: clamp(1.50rem, calc(1.32rem + 0.75vw), 2.00rem); 
     /* 11px → 14px */
     padding-bottom: clamp(0.69rem, calc(0.62rem + 0.28vw), 0.88rem); 
 

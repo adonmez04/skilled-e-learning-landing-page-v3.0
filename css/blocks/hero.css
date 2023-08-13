@@ -9,8 +9,6 @@
     /* padding: 0 16px 0 16px; */
     /* padding: 0 165px 0 165px; */
     margin-bottom: 66px;
-
-    
 }
 
 .hero-content {
@@ -20,13 +18,6 @@
 }
 
 .hero-content h1 {
-    /* Font Styles */
-    font-size: var(--font-size-xxl);
-    font-weight: var(--font-weight-extra-bold);
-
-    /* Color */
-    color: var(--color-primary-main);
-
     /* Whitespace */
     /* 26px → 29px */
     margin-bottom: clamp(1.63rem, calc(1.56rem + 0.28vw), 1.81rem); 
@@ -35,14 +26,6 @@
 .hero-content p {
     /* Layout */
     width: 98%;
-
-    /* Font Styles */
-    font-size: var(--font-size-m-1);
-    font-weight: var(--font-weight-m);
-    line-height: var(--line-height-m-1);
-
-    /* Color */
-    color: var(--color-neutral-gray);
 
     /* Whitespace */
     /* 24px → 40px */
