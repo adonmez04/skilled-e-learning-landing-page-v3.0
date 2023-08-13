@@ -1,4 +1,5 @@
 .flow > :not(:last-child) {
-    /* Whitespace */
+    /* LAYOUT */
+    /* Margin */
     margin-bottom: var(--flow);
 }

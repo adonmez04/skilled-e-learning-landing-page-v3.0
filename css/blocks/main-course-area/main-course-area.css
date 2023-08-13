@@ -1,17 +1,14 @@
 .main-course-area {
-    /* Whitespace */
-    /* 80px → 140px */
-    margin-bottom: clamp(5.00rem, calc(3.68rem + 5.63vw), 8.75rem); 
-
+    /* LAYOUT */
+    /* Margin */
+    margin-bottom: clamp(5.00rem, calc(3.68rem + 5.63vw), 8.75rem); /* 80px → 140px */
     /* CSS Grid */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min-content, 350px));
-    row-gap: var(--_flow);
-    column-gap: 30px;
+    row-gap: var(--_flow); /* 40px → 80px */
+    column-gap: 1.875rem; /* 30px */
     place-content: center;
 
-
     /* Custom Properties */
-    /* 40px → 80px */
-    --_flow: clamp(2.50rem, calc(1.62rem + 3.76vw), 5.00rem);   
+    --_flow: clamp(2.50rem, calc(1.62rem + 3.76vw), 5.00rem); /* 40px → 80px */
 }

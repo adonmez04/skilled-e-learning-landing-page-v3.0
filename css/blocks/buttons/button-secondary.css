@@ -1,35 +1,26 @@
 .button-secondary {
-    /* Layout */
-    /* 167px */
-    max-width: 10.4375rem;
+    /* LAYOUT */
+    max-width: 10.4375rem; /* 167px */
     width: 100%;
-
-    /* Font Styles */
+    /* Padding */
+    /* padding: 15px 38px; */
+    /* padding: 19px 32px 16px; */
+    padding-top: clamp(0.94rem, calc(0.85rem + 0.38vw), 1.19rem); /*15px → 19px */
+    padding-bottom: clamp(0.94rem, calc(0.92rem + 0.09vw), 1.00rem); /*15px → 16px */
+    /* TEXT */
     font-size: var(--font-size-m-1);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-m-1);
-
-    /* Color */
+    /* APPEARANCE */
     color: var(--color-neutral-white);
     background: var(--gradient-secondary);
-
-    /* Box Styles */
+    /* OTHER */
     border-radius: var(--border-radius-xl);
-
-    /* Micro-interactions */
+    /* ANIMATION */
     transition: all .2ms; 
-
-    /* Whitespace */
-    /* padding: 15px 38px; */
-    /* padding: 19px 32px 16px; */
-
-    /*15px → 19px */
-    padding-top: clamp(0.94rem, calc(0.85rem + 0.38vw), 1.19rem); 
-    /*15px → 16px */
-    padding-bottom: clamp(0.94rem, calc(0.92rem + 0.09vw), 1.00rem); 
 }
 
 .button-secondary:where(:hover){
-    /* Color */
+    /* APPEARANCE */
     background: var(--gradient-1-hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
 }

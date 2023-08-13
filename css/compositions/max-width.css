@@ -1,4 +1,4 @@
 .max-width {
-    /* Layout */
+    /* LAYOUT */
     max-width: clamp(21.44rem, calc(4.56rem + 72.02vw), 69.38rem); /* 343px → 1110px */
 }

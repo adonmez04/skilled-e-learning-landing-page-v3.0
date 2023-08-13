@@ -1,35 +1,26 @@
 .button-tertiary {
-    /* Layout */
-    /* 140px → 167px */
-    max-width: clamp(8.75rem, calc(8.16rem + 2.54vw), 10.44rem);
+    /* LAYOUT */
+    max-width: clamp(8.75rem, calc(8.16rem + 2.54vw), 10.44rem); /* 140px → 167px */
     width: 100%;
-
-    /* Font Styles */
+    /* Padding */
+    /* padding: 9px 24px 11px; */
+    /* padding: 14px 32px; */
+    padding-top: clamp(0.56rem, calc(0.45rem + 0.47vw), 0.88rem); /* 9px → 14px */
+    padding-bottom: clamp(0.69rem, calc(0.62rem + 0.28vw), 0.88rem); /* 11px → 14px */
+    /* TEXT */
     font-size: var(--font-size-m-1);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-m-2);
-
-    /* Color */
+    /* APPEARANCE */
     background: var(--gradient-tertiary);
     color: var(--color-neutral-white);
-
-    /* Box Styles */
-    border-radius: var(--border-radius-l);
-
-    /* Whitespace */
-    /* padding: 9px 24px 11px; */
-    /* padding: 14px 32px; */
-
-    /* 9px → 14px */
-    padding-top: clamp(0.56rem, calc(0.45rem + 0.47vw), 0.88rem); 
-    /* 11px → 14px */
-    padding-bottom: clamp(0.69rem, calc(0.62rem + 0.28vw), 0.88rem); 
-
-    /* Micro-interactions */
+    /* ANIMATION */
     transition: all .2ms;
+    /* OTHER */
+    border-radius: var(--border-radius-l);
 }
 
 .button-tertiary:where(:hover){
-    /* Color */
+    /* APPEARANCE */
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
 }

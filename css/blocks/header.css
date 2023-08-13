@@ -1,26 +1,21 @@
 header {
+    /* LAYOUT */
     /* Flexbox */
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* Whitespace */
-    /* 38px → 172px */
-    margin-bottom: clamp(2.38rem, calc(-0.57rem + 12.58vw), 10.75rem)  ;
-
+    /* Margin */
+    margin-bottom: clamp(2.38rem, calc(-0.57rem + 12.58vw), 10.75rem); /* 38px → 172px */
+    /* Padding */
     /* padding: 16px 16px 0 16px; */
     /* padding: 24px 165px 0 165px; */
-
-    /* 16px → 24px */
-    padding-top: clamp(1.00rem, calc(0.82rem + 0.75vw), 1.50rem); 
+    padding-top: clamp(1.00rem, calc(0.82rem + 0.75vw), 1.50rem); /* 16px → 24px */
 }
 
 header .logo {
-    /* Font Styles */
-    /* 28px --> 36px */
-    font-size: var(--font-size-xl-2); 
+    /* TEXT */
+    font-size: var(--font-size-xl-2); /* 28px --> 36px */
     font-weight: var(--font-weight-extra-bold);
-    
-    /* Color */
+    /* APPEARANCE */
     color: var(--color-primary-main);
 }

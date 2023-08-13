@@ -1,47 +1,44 @@
 .hero {
+    /* LAYOUT */
     /* Flexbox */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
-
-    /* Whitespace */
+    /* Padding */
     /* padding: 0 16px 0 16px; */
     /* padding: 0 165px 0 165px; */
-    margin-bottom: 66px;
+    margin-bottom: 66px; /* for only this demo */
 }
 
 .hero-content {
-    /* Layout */
-    /* 343px → 457px; */
-    max-width: clamp(21.44rem, calc(18.93rem + 10.70vw), 28.56rem); 
+    /* LAYOUT */
+    max-width: clamp(21.44rem, calc(18.93rem + 10.70vw), 28.56rem); /* 343px → 457px; */
 }
 
 .hero-content h1 {
-    /* Whitespace */
-    /* 26px → 29px */
-    margin-bottom: clamp(1.63rem, calc(1.56rem + 0.28vw), 1.81rem); 
+    /* LAYOUT */
+    /* Margin */
+    margin-bottom: clamp(1.63rem, calc(1.56rem + 0.28vw), 1.81rem); /* 26px → 29px */
 }
 
 .hero-content p {
-    /* Layout */
+    /* LAYOUT */
     width: 98%;
-
-    /* Whitespace */
-    /* 24px → 40px */
-    margin-bottom: calc(clamp(1.50rem, calc(1.15rem + 1.50vw), 2.50rem) + 3px); 
+    /* Margin */
+    margin-bottom: calc(clamp(1.50rem, calc(1.15rem + 1.50vw), 2.50rem) + 3px); /* 24px → 40px */
 }
 
 .hero-img {
-    /* Position */
-    position: relative;
-
-    /* Layout */
+    /* LAYOUT */
     width: 457px;
     height: 359px;
+    /* Position */
+    position: relative;
 }
 
 .hero-img img {
+    /* LAYOUT */
     /* Position */
     position: absolute;
     top: -50%;

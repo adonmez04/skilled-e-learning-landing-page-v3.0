@@ -17,10 +17,7 @@
 /* 28px | --border-radius-l */ 
 
 :root {
-    /* 10px --> 15px */
-    --border-radius-m: clamp(0.63rem, calc(0.51rem + 0.47vw), 0.94rem); 
-    /* 28px */
-    --border-radius-l: 1.75rem; 
-    /* 31.5px */
-    --border-radius-xl: 1.96875rem; 
+    --border-radius-m: clamp(0.63rem, calc(0.51rem + 0.47vw), 0.94rem); /* 10px --> 15px */
+    --border-radius-l: 1.75rem; /* 28px */
+    --border-radius-xl: 1.96875rem; /* 31.5px */
 }   
