@@ -1,14 +1,19 @@
-/* Header */
-@import url(./blocks/header.css);
+/* HEADER */
+@import url(./blocks/header/header.css);
+/* Nav */
+@import url(./blocks/header/nav.css);
 /* Hero */
-@import url(./blocks/hero.css);
+@import url(./blocks/header/hero.css);
+
+/* MAIN */
 /* Main course area */
 @import url(./blocks/main-course-area/main-course-area.css);
 @import url(./blocks/main-course-area/course-title.css);
 @import url(./blocks/main-course-area/course.css);
 /* Footer */
 @import url(./blocks/footer.css);
-/* Buttons */
+
+/* BUTTONS */
 @import url(./blocks/buttons/button-primary.css);
 @import url(./blocks/buttons/button-secondary.css);
 @import url(./blocks/buttons/button-tertiary.css);

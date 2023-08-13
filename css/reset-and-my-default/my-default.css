@@ -1,6 +1,5 @@
 /* MY DEFAULT */
 body {
-    /* LAYOUT */
     /* TEXT */
     font-family: var(--font-family-main);
     font-style: var(--font-style-normal);
@@ -51,6 +50,7 @@ a {
     text-decoration: none;
     /* ANIMATION */
     transition: all .2ms;
+    /* APPEARANCE */
     cursor: pointer;
 }
   
