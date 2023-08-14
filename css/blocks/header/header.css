@@ -2,4 +2,6 @@ header {
     /* LAYOUT */
     max-width: 1440px;
     overflow: hidden;
+    /* Margin */
+    margin-bottom: clamp(4.13rem, calc(0.08rem + 17.28vw), 15.63rem); /* 66px → 250px */
 }
