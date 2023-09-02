@@ -3,7 +3,3 @@
 @import url(./css/utilities.css);
 @import url(./css/blocks.css);
 @import url(./css/exceptions.css);
-
-* {
-  border: 1px solid black !important;
-}
